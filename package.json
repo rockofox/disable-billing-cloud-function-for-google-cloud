@@ -1,0 +1,15 @@
+{
+    "author": "Ace Nassri <anassri@google.com>",
+    "contributors" : [
+      {
+          "name" : "Damian Chybowski",
+          "email" : "https://github.com/damianchybowski95"
+      }
+    ],
+    "license": "Apache-2.0",
+    "dependencies": {
+      "@google-cloud/functions-framework": "^3.0.0",
+      "@google-cloud/billing": "^4.0.0",
+      "@google-cloud/compute": "^4.0.0"
+    }
+  }
