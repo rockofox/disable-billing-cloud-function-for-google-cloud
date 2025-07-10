@@ -23,4 +23,4 @@ USER node
 COPY --from=builder /build-stage/node_modules ./node_modules
 COPY --from=builder /build-stage/dist ./dist
 # Run with dumb-init to not start node with PID=1, since Node.js was not designed to run as PID 1
-CMD ["dumb-init", "node", "index.js"]
+CMD ["dumb-init", "node", "dist/index.js"]
